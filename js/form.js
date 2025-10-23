@@ -30,9 +30,12 @@ function Post(form) {
 function Enviar() {
 
     var nome = document.getElementById("nomeid");
+    var checkbox = document.getElementById("checkboxid");
 
-    if (nome.value != "") {
+    if (nome.value != "" && checkbox.checked) {
         alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+    } else {
+        alert('Por favor, preencha os campos obrigatórios');
     }
 
 }

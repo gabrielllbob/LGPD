@@ -15,6 +15,24 @@ select.fordform {
     color: #807d7d;
 }
 
+.fordformlgpd {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-left: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.fordformchecklgpd {
+    display: block;
+    width: 300px;
+    height: auto;
+    font-size: 13px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+
 input:focus-visible {
     outline: none;
 }
